@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    color: rgb(221, 216, 216);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+
+
+@keyframes radiusMorph {
+    0% {
+        border-radius: 56% 44% 42% 58%/51% 55% 45% 49%
+    }
+
+    25% {
+        border-radius: 41% 59% 36% 64%/61% 55% 45% 39%
+    }
+
+    50% {
+        border-radius: 59% 41% 53% 47%/46% 48% 52% 54%
+    }
+
+    75% {
+        border-radius: 49% 51% 38% 62%/58% 51% 49% 42%
+    }
+
+    to {
+        border-radius: 56% 44% 42% 58%/51% 55% 45% 49%
+    }
+}
+
+.animate-radiusMorph{
+    animation: radiusMorph 8s infinite;
+}
+
+.point::after{
+
+        position: absolute;
+        content:'';
+        bottom: 0;
+        left: 100%;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    
+}

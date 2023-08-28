@@ -1,0 +1,9 @@
+.logo::after{
+    position: absolute;
+    content:'';
+    bottom: 0;
+    left: 100%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
