@@ -43,7 +43,7 @@ const MyWork = () => {
             return (
               <article
                 key={index}
-                className="dark:bg-[#0f0d1e] dark:border  border-gray-500  rounded-xl w-full max-w-xs overflow-hidden shadow-md hover:scale-[1.05] relative z-10 transition-transform duration-300 "
+                className="dark:bg-[#0f0d1e] bg-white dark:border  border-gray-500  rounded-xl w-full max-w-xs overflow-hidden shadow-md hover:scale-[1.05] relative z-10 transition-transform duration-300 "
               >
                 <img
                   src={item.src}
