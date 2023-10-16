@@ -19,10 +19,10 @@ const LinkHeader = ({ darkMode, setDarkMode }) => {
   return (
     <nav className="flex text-2xl gap-8 text-gray-600 dark:text-white">
       <div className="flex gap-4">
-        <a href="" target="_blank">
+        <a href="https://github.com/Julioalexis434" target="_blank">
           <RiGithubFill />
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.linkedin.com/in/julio-alexis-hoyos" target="_blank">
           <RiLinkedinBoxFill />
         </a>
       </div>

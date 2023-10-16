@@ -12,19 +12,19 @@ const HeroRight = () => {
 
           <img
             width={250}
-            src="/personImage.jpg"
+            src="/person.png"
             alt="person image"
             className="rounded-xl mx-auto  mb-4 object-cover "
           />
           <div className="text-center">
-            <p className="text-xl">alextrabajo444@gmail.com</p>
-            <p>currently in ecuador</p>
+            <p className="text-xl">julioalexis1096006444@gmail.com</p>
+            <p>currently in ecuador <br/> 0979501005</p>
           </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <button onClick={()=>{
-              window.location.href = "mailto:alextrabajo444@gmail.com";
+              window.location.href = "mailto:julioalexis1096006444@gmail.com";
           }} className="py-2  px-4 border border-primary bg-primary rounded-xl hover:text-primary hover:bg-transparent transition-colors duration-300">
             Contact Me
           </button>
